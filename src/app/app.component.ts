@@ -10,7 +10,6 @@ export class AppComponent {
   showMenuElements = {recipesVisible: true, shoppingListVisible: false};
 
   showMenu(event) {
-    console.log(event);
     this.showMenuElements = event;
   }
 }
