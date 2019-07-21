@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RECIPES';
+  showMenuElements = {recipesVisible: true, shoppingListVisible: false};
+
+  showMenu(event) {
+    console.log(event);
+    this.showMenuElements = event;
+  }
 }
