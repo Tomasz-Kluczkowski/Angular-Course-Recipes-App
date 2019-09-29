@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RECIPES';
-  showMenuElements = {recipesVisible: true, shoppingListVisible: false};
-
-  showMenu(event) {
-    this.showMenuElements = event;
-  }
 }
